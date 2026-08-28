@@ -1,0 +1,46 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "host": "[%key:common::config_flow::data::host%]",
+          "port": "[%key:common::config_flow::data::port%]",
+          "slave": "Modbus slave",
+          "Aktiviere unbekannt Register": "Aktiviere unbekannte Register"
+        },
+        "data_description": {
+          "host": "The hostname or IP address of the Modbus gateway.",
+          "port": "The TCP port of the Modbus gateway.",
+          "slave": "The Modbus slave address of the Vitovent device.",
+          "Aktiviere unbekannt Register": "Aktiviere das Lesen von noch unbekannten Registern."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "invalid_auth": "[%key:common::config_flow::error::invalid_auth%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "host": "[%key:common::config_flow::data::host%]",
+          "port": "[%key:common::config_flow::data::port%]",
+          "slave": "Modbus slave",
+          "Aktiviere unbekannt Register": "Enable unknown registers"
+        },
+        "data_description": {
+          "host": "The hostname or IP address of the Modbus gateway.",
+          "port": "The TCP port of the Modbus gateway.",
+          "slave": "The Modbus slave address of the Vitovent device.",
+          "Aktiviere unbekannt Register": "Enable reading of unknown Modbus registers."
+        }
+      }
+    }
+  }
+}

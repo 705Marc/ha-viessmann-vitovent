@@ -1,0 +1,46 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "Aktiviere unbekannt Register": "Aktiviere unbekannte Register",
+                    "host": "Host",
+                    "port": "Port",
+                    "slave": "Modbus slave"
+                },
+                "data_description": {
+                    "Aktiviere unbekannt Register": "Aktiviere das Lesen von noch unbekannten Registern.",
+                    "host": "The hostname or IP address of the Modbus gateway.",
+                    "port": "The TCP port of the Modbus gateway.",
+                    "slave": "The Modbus slave address of the Vitovent device."
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "Aktiviere unbekannt Register": "Enable unknown registers",
+                    "host": "Host",
+                    "port": "Port",
+                    "slave": "Modbus slave"
+                },
+                "data_description": {
+                    "Aktiviere unbekannt Register": "Enable reading of unknown Modbus registers.",
+                    "host": "The hostname or IP address of the Modbus gateway.",
+                    "port": "The TCP port of the Modbus gateway.",
+                    "slave": "The Modbus slave address of the Vitovent device."
+                }
+            }
+        }
+    }
+}
