@@ -3,7 +3,7 @@
 Home Assistant integration for Viessmann Vitovent 300-C Ventilation Systems
 
 [![Static Badge](https://img.shields.io/badge/HACS-Custom-41BDF5?style=for-the-badge&logo=homeassistantcommunitystore&logoColor=white)](https://github.com/hacs/integration)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/705Marc/ha-viessmann-vitovent/total?style=for-the-badge)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/705marc/ha-viessmann-vitovent/total?style=for-the-badge)
 ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/705Marc/ha-viessmann-vitovent?style=for-the-badge)
 
 ![GitHub Release Date](https://img.shields.io/github/release-date-pre/705Marc/ha-viessmann-vitovent?style=for-the-badge&label=Latest%20Beta%20Release) [![GitHub Release](https://img.shields.io/github/v/release/705Marc/ha-viessmann-vitovent?include_prereleases&style=for-the-badge)](https://github.com/705Marc/ha-viessmann-vitovent/releases)
