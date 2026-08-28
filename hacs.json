@@ -1,6 +1,6 @@
 {
   "name": "Viessmann Vitovent",
-  "homeassistant": "2026.8",
+  "homeassistant": "2026.9",
   "zip_release": true,
   "filename": "vitovent.zip"
 }
