@@ -14,6 +14,9 @@ Home Assistant integration for Viessmann Vitovent 300-C Ventilation Systems
 
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=705Marc&repository=ha-viessmann-vitovent&category=Integration)
 
+## Requirements
+HomeAssistant 2026.9
+
 ## Data
 
 The integration pulls data from the Ventilation System via a Modbus RTU to TCP Gateway.
